@@ -1,0 +1,19 @@
+Dosya konumunuzdan;
+
+resources/dpemotes-master/streams
+
+içerisinde klasörde bulunan dosyaları gönderelim.
+
+Sonrasında AnimationList.lua belgesine alttaki kodları ekleyelim.
+
+["poz1"] = {"anim@sw_sit_chill", "sit_chill_clip", "Seated Thot Selfie (Smos)", AnimationOptions =
+{
+	EmoteLoop = false,
+	EmoteMoving = false,
+}},
+
+["poz2"] = {"anim@sw_chill_pose", "chill_pose_clip", "Chill Pose 2 (Smos)", AnimationOptions =
+{
+	EmoteLoop = false,
+	EmoteMoving = false,
+}},
